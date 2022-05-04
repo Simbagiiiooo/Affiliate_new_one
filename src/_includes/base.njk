@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="5b214724966ca9c" content="8c4931d6c3d64a8824bde7a9adde8018" /> 
+    <title>{{ title }}</title>
+    <meta name="title" content="{{ metatitle }}">
+    <meta name="description" content="{{ metadescription }}"> 
+    <link rel="icon" href="/assets/favi.svg" sizes="32x32" type="image/svg+xml">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1VLWJ888FZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1VLWJ888FZ');
+</script>
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://kit.fontawesome.com/77b3a768f6.js" crossorigin="anonymous"></script>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0de58d9415d0d673fe902ffd7/ea9a4dc3e3801609bdc8b0f61.js");</script>
+  </head>
+  <body>
+    {% include 'header.njk' %}
+    <main>
+    {{ content | safe }}
+    </main>
+    {% include "footer.njk" %}
+
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+  </body>
+  </html>

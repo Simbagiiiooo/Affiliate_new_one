@@ -1,0 +1,19 @@
+---
+title: Cursussen en producten
+metatitle: "Cursussen en producten voor je gezondheid"
+metadescription: Cursussen en produkten om je leven en lijf aangenamer te maken, lees verder!
+layout: 'base.njk'
+---
+
+<section id="featured-articles-tools" class="featured-articles-tools">
+    <div class="container flow">
+      <h2 class="section-title text-center">Cursussen en producten voor een aangenamer leven</h2>
+      <ul role="list" class="articles__list flow">
+        {%- for post in collections.tools -%}
+          {% include "article-snippet.njk" %}
+          {%- endfor -%}
+      </ul>
+    </div>
+  </section>
+
+

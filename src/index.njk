@@ -1,0 +1,125 @@
+---
+title: Homepage Nu ontstressen
+metatitle: "Homepage van Nu ontstressen"
+metadescription: Ontstressen kun je leren met tips & tricks of is een online cursus iets voor jou?, heeft u stress lees dan verder!
+layout: 'base.njk'
+---
+
+  <section class="hero">
+    <div class="container flow">
+      <div class="hero__content flow">
+        <div class="section-title-img">
+          <div class="image-div-1">
+      <aside class="aside-text">
+        <h3 class="section-title-h3">Een website over online ontstressen</h3><br>
+        <p>
+          Op deze website vind je allerlei informatie, tips, cursussen en Producten hoe je nu kunt ontstressen en hoe je lekkerder in je vel komt te zitten.
+        </p>
+        <p>
+          Lees verder of <a href="./blog">ga direct naar de blogs</a> voor meer informatie en tips.
+        </p>
+        </aside>
+        <aside class="aside-list">
+          <h3 class="section-title-h3">Wat kun je verwachten</h3>
+        <ul>
+          <li>Actuele informatie over stress!</li>
+          <li>Tips om te onstressen</li>
+          <li>De beste en goedkoopste Producten!</li>
+          <li>De beste cursussen!</li>
+          <li>Beter slapen d.m.v. tips & tricks!</li>
+          <li>Elke week nieuwe blog's</li>
+        </ul>
+        <a href="./blog" class="btn btn--primary"
+            >Direct naar de blogs</a
+          >
+      </aside>
+      </div>
+      <h1 class="section-title">Stress en nu ontstressen!</h1><br>
+      </div>
+      <div class="image-div">
+      <div>
+        <img src="/assets/hero.png" alt="image left top" class="hero__image" />
+      </div>
+      <div>
+        <p>
+          Iedereen ervaart weleens stress, maar wat als het langer aanhoudt, 
+          hevig is of je stressklachten ervaart?<br> 
+          Ernstige stressklachten kunnen bijdragen aan de ontwikkeling van een burn-out, depressie of angststoornis. 
+          Dat wil je voorkomen.
+        </p><br>
+        <p>
+          Maak jij je zorgen over jouw stressniveau en wil jij weten hoe je stress vermindert? 
+          Dan helpen wij je graag met passende hulp, maar ook aan relevante informatie.
+        </p>
+        </div>
+      </div>
+        <br>
+        <h2 class="section-title-h2">Wat is stress?</h2>
+        <p>
+          Stress betekent dat de draaglast groter is dan de draagkracht. 
+          Je hebt het gevoel dat je niet aan de eisen kunt voldoen die aan jou gesteld worden en voelt hierdoor spanning en druk.<br><br>
+          Een bepaalde mate van stress is nodig om goed te kunnen functioneren. Stress zorgt er namelijk voor dat jouw lichaam in beweging komt. Dat je hart sneller gaat kloppen en je ademhaling versnelt, zodat er zuurstof binnen komt. Maar het versterkt ook je focus en zet je lichaam (en geest) ‘op scherp’. Het zorgt er dus voor dat je dingen kunt doen, maar het moet niet te heftig zijn of te lang aanhouden. 
+          Dan wordt ook wel ongezonde stress genoemd.
+        </p>
+        <div class="giphy">
+          <iframe src="https://giphy.com/embed/wyD2b2fkLDxnJmmL1j" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen target="_blank"></iframe><p><a href="https://giphy.com/gifs/PsychosozialeDiensteWien-darberredenwir-darber-reden-wyD2b2fkLDxnJmmL1j"></a></p>
+          </div>
+          <p>
+          Situaties waarin je een beetje ’gezonde’ stress kunt ervaren zijn als je bijvoorbeeld nog bergen werk te verzetten hebt en de deadline steeds dichterbij komt. 
+          Of je ervaart vakantiestress omdat je morgen naar de zon vertrekt en de koffers nog niet zijn ingepakt. Of als er over een uur visite op de stoep staat en je moet nog beginnen met het huis opruimen.<br><br> Maar er zijn een hele hoop situaties te bedenken waarin je ‘ongezonde’ stress kunt ervaren, 
+          zoals bij aanhoudende druk vanuit werk of school, stress bij financiële problemen of het overlijden van een naaste.
+        </p><br>
+        <h2 class="section-title-h2"> Stress symptomen</h2>
+        <p>
+        De meest voorkomende symptomen bij stress zijn:
+        </p>
+        <ul>
+          <li>versnelde hartslag en/of ademhaling</li>
+          <li>veranderde/weinig eetlust</li>
+          <li>vermoeidheid</li>
+          <li>duizelingen</li>
+          <li>hoofdpijn</li>
+        </ul>
+        
+        <p>
+          De symptomen die je ervaart bij stress noemen we stressreacties. De één ervaart bepaalde symptomen meer dan de ander. 
+          Het is belangrijk dat je de signalen van stress herkent.
+        </p>
+        <p>
+          Ik maak ook een onderdeel in de blog dat gaat over PTSS (Posttraumatische stressstoornis), dit omdat ik zelf de diagnose PTSS heb 
+          en dit ook een groot onderdeel stress en zorgen met zich meebrengt.
+          Ook wil ik tips en tricks delen die mij geholpen hebben, waaronder de cursus van <a href="https://www.paypro.nl/producten/Ont-stressen_kun_je_leren_-_online_cursus_/88513/99130">Alfred Petrie</a>
+        </p>
+        {% include 'base-article.njk' %}
+        <p>
+          Of lees meer over stress en ontstressen in de volgende artikelen, ga naar de blogs of ga direct naar de cursussen en producten.
+        </p><br>
+        <div class="flex-group">
+          <a href="#featured-articles" class="btn btn--neutral"
+            >Artikelen</a
+          >
+          <a href="./blog" class="btn btn--primary"
+            >Direct naar de blogs</a
+          >
+        </div>
+        <div>
+    <img src="/assets/books.jpg" alt="image left top" class="hero__image-bottom" />
+    </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="featured-articles" class="featured-articles">
+    <div class="container flow">
+      <h2 class="section-title text-center">Aanbevolen artikelen</h2>
+      <ul role="list" class="articles__list flow">
+        {%- for post in collections.featured  | reverse-%}
+          {% include "article-snippet.njk" %}
+          {%- endfor -%}
+      </ul>
+    </div>
+  </section>
+  
+
+

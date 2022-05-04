@@ -1,0 +1,78 @@
+<header class="header" data-header>
+    <div class="container">
+      <h1 class="logo">
+        <a href="#">Nu <span> ontstressen</span></a>
+      </h1>
+      <div class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <i class="fa fa-bars"></i>
+      </div>
+
+      <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+
+            <li>
+              <a href="/" class="navbar-link"><i class="fa fa-home"></i> Home</a>
+            </li>
+
+            <li>
+              <a href="/blog/" class="navbar-link"><i class="fas fa-newspaper"></i> Blog</a>
+            </li>
+
+          <li>
+              <a href="https://www.paypro.nl/producten/Ont-stressen_kun_je_leren_-_online_cursus_/88513/99130" class="btn btn--primary">Nu stress verminderen</a>
+            </li>
+
+        </ul>
+        </nav>
+      </div>
+  </header>
+  <div>
+        <img src="/assets/bergen.jpg" alt="image left top" class="header__image" />
+      </div>
+  <script>
+
+'use strict';
+    /**
+ * element toggle function
+ */
+
+const elemToggleFunc = function (elem) { elem.classList.toggle("active"); }
+
+
+
+/**
+ * header sticky & go to top
+ */
+
+const header = document.querySelector("[data-header]");
+const goTopBtn = document.querySelector("[data-go-top]");
+
+window.addEventListener("scroll", function () {
+
+  if (window.scrollY >= 10) {
+    header.classList.add("active");
+    goTopBtn.classList.add("active");
+  } else {
+    header.classList.remove("active");
+    goTopBtn.classList.remove("active");
+  }
+
+});
+
+
+
+/**
+ * navbar toggle
+ */
+
+const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+const navbar = document.querySelector("[data-navbar]");
+
+navToggleBtn.addEventListener("click", function () {
+
+  elemToggleFunc(navToggleBtn);
+  elemToggleFunc(navbar);
+  elemToggleFunc(document.body);
+
+});
+  </script>

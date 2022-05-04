@@ -1,0 +1,41 @@
+---
+title: Zorgen Nu ontstressen
+metatitle: "Blog's met informatie en tips over zorgen en stress"
+metadescription: Informatie en tips over stress en zorgen. Nu ontstressen kun je leren met tips & tricks of is een online cursus iets voor jou?, heeft u stress lees dan verder!
+layout: 'base.njk'
+---
+<div class="section container catagory">
+  <div class="header-seven">
+<h1 class="section-title-2">Zorgen</h1>
+<div>
+            <ul class="list-catagory">
+              <li class="nav-item">
+                Catagoriën
+              </li>
+              <li class="nav-item">
+					      <a href="/stress" class="nav-link">Stress</a>
+			        </li>
+              <li class="nav-item">
+                <a href="/slapen" class="nav-link">Slapen</a>
+              </li>
+              <li class="nav-item">
+                <a href="/ptss" class="nav-link">PTSS</a>
+              </li>
+              <li class="nav-item">
+                <a href="/tips" class="nav-link">Tips</a>
+              </li>
+              {# <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li> #}
+              {# <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li> #}
+            </ul>
+</div>
+</div>
+<ul role="list" class="articles__list flow">
+  {%- for post in collections.zorgen  | reverse-%}
+    {% include "article-snippet.njk" %}
+  {%- endfor -%}
+</ul>
+</div>
