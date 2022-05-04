@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Simbagiiiooo/Affiliate_zorgen_en_stress#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^0.3.3"
   }
 }
