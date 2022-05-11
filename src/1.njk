@@ -4,16 +4,39 @@ metatitle: "Cursussen en producten voor je gezondheid"
 metadescription: Cursussen en produkten om je leven en lijf aangenamer te maken, lees verder!
 layout: 'base.njk'
 ---
-
-<section id="featured-articles-tools" class="featured-articles-tools">
-    <div class="container flow">
-      <h2 class="section-title text-center">Cursussen en producten voor een aangenamer leven</h2>
-      <ul role="list" class="articles__list flow">
-        {%- for post in collections.tools -%}
-          {% include "article-snippet.njk" %}
-          {%- endfor -%}
-      </ul>
-    </div>
-  </section>
-
+<div class="section container catagory">
+  <div class="header-four">
+<h1 class="section-title-2">1</h1>
+<div>
+            <ul class="list-catagory">
+              <li class="nav-item">
+                Catagoriën
+              </li>
+              <li class="nav-item">
+					      <a href="/stress" class="nav-link">Stress</a>
+			        </li>
+              <li class="nav-item">
+                <a href="/zorgen" class="nav-link">Zorgen</a>
+              </li>
+              <li class="nav-item">
+                <a href="/slapen" class="nav-link">Slapen</a>
+              </li>
+              <li class="nav-item">
+                <a href="/tips" class="nav-link">Tips</a>
+              </li>
+              {# <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li> #}
+              {# <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li> #}
+            </ul>
+</div>
+</div>
+<ul role="list" class="articles__list flow">
+  {%- for post in collections.tools  | reverse-%}
+    {% include "article-snippet.njk" %}
+  {%- endfor -%}
+</ul>
+</div>
 
