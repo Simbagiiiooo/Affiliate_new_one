@@ -598,6 +598,9 @@ section,
   display: inline-block;
   padding-bottom: 1rem;
 }
+.catagory .blog_tekst {
+  padding-bottom: 4rem;
+}
 
 .list-catagory {
   width: 14rem;
