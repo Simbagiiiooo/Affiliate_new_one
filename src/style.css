@@ -15,10 +15,10 @@
   --fw-700: 700;
   --fw-900: 900;
 
-  --clr-primary-200: #FFEF82;
-  --clr-primary-300: #EFD345;
-  --clr-primary-400: #BABD42;
-  --clr-primary-500: #82954B;
+  --clr-primary-200: #FFF323;
+  --clr-primary-300: #FFCA03;
+  --clr-primary-400: #FF5403;
+  --clr-primary-500: #F90716;
 
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
   --clr-neutral-300: hsla(0, 0%, 50%, 1);
@@ -333,16 +333,16 @@ section,
   transition-delay: 0s;
 }
 .navbar-list .btn--primary {
-  background-color: rgb(44, 221, 44);
+  background-color: rgb(48, 161, 48);
   padding: 20px 20px;
-  color: var(--clr-neutral-400);
-  border: 5px solid var(--clr-primary-500);
+  color: var(--clr-neutral-100);
+  border: 5px solid var(--clr-primary-300);
   transform: translate(0, 0);
 }
 .navbar-list .btn--primary:hover {
-  background-color: var(--clr-primary-400);
+  background-color: rgb(98, 218, 98);
   color: var(--clr-neutral-100);
-  border: 5px solid var(--clr-neutral-400);
+  border: 5px solid var(--clr-primary-400);
 }
 .navbar-list>li {
   margin-block: 20px;
@@ -466,10 +466,10 @@ section,
 
 .copyright a {
   display: inline-block;
-  color: var(--raw-seinna);
+  color: var(--clr-primary-400);
 }
 .copyright a:hover {
-  color: var(--sizzling-sunrise);
+  color: var(--clr-primary-500);
 }
   
 
@@ -581,10 +581,11 @@ background-image: url("bier-full.gif");
 .linken a {
   margin: 1rem 0;
   background-color: rgb(48, 161, 48);
-  border: rgb(173, 233, 173);
+  border: 5px solid var(--clr-primary-200);
 }
 .linken a:hover {
   background-color: rgb(98, 218, 98);
+  border: 5px solid var(--clr-primary-400);
 }
 .linken img {
   width: 15rem;
@@ -687,21 +688,21 @@ background-image: url("bier-full.gif");
     font-size: var(--fs-400);
   }
   .header-two {
-    background-image: url("/assets/stressfree.jpg");
+    background-image: url("/assets/bier-full.gif");
     display: grid;
     grid-template-columns: 1fr 0.1fr;
     padding: 2rem;
     margin-bottom: 2rem;
   }
   .header-three {
-    background-image: url("/assets/stress-tyred.jpg");
+    background-image: url("/assets/bier-full.gif");
     display: grid;
     grid-template-columns: 1fr 0.1fr;
     padding: 2rem;
     margin-bottom: 2rem;
   }
   .header-four {
-    background-image: url("/assets/manwithglasses.jpg");
+    background-image: url("/assets/bier-full.gif");
     display: grid;
     grid-template-columns: 1fr 0.1fr;
     padding: 2rem;
