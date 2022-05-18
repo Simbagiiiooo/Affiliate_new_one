@@ -15,10 +15,10 @@
   --fw-700: 700;
   --fw-900: 900;
 
-  --clr-primary-200: #FFEF82;
-  --clr-primary-300: #EFD345;
-  --clr-primary-400: #BABD42;
-  --clr-primary-500: #82954B;
+  --clr-primary-200: #F8D800;
+  --clr-primary-300: #B4ECE3;
+  --clr-primary-400: #8479E1;
+  --clr-primary-500: #733C3C;
 
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
   --clr-neutral-300: hsla(0, 0%, 50%, 1);
@@ -151,7 +151,6 @@ body {
     font-size: var(--fs-300);
   }
 }
-
 h1,
 h2,
 h3 {
@@ -278,7 +277,7 @@ section,
 
 .logo span {
   display: inline-block;
-  color: var(--clr-primary-300);
+  color: var(--clr-primary-400);
   margin-left: 2px;
 }
 
@@ -384,7 +383,7 @@ section,
   width: 100%;
 }
 .header__image {
-  opacity: 0.5;
+  opacity: 0.9;
   width: 100%;
   height: 8rem;
   margin-bottom: 2rem;
@@ -490,7 +489,9 @@ section,
 /* //////////////////////
   Homepage
   /////////////////////// */
-
+.hero{
+background-image: url("bier-full.gif");
+}
 .hero > div {
   display: grid;
   grid-auto-flow: row;
@@ -560,7 +561,7 @@ section,
 .linken {
   width: 100%;
   background-color: var(--clr-primary-300);
-  color: var(--clr-neutral-100);
+  color: var(--clr-neutral-400);
   text-align: center;
   padding: 0.3rem;
   margin: 2rem 0;
@@ -575,7 +576,7 @@ section,
 }
 .linken h3 {
   padding: 1rem 0;
-  color: var(--clr-neutral-100);
+  color: var(--clr-neutral-400);
 }
 .linken a {
   margin: 1rem 0;
@@ -586,9 +587,11 @@ section,
   background-color: rgb(98, 218, 98);
 }
 .linken img {
-  width: 18rem;
+  width: 15rem;
   height: 10rem;
-  margin-right: 1rem;
+  padding-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 5rem;
 }
 .validate {
   background: var(--clr-neutral-500);
