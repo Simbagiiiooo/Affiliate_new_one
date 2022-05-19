@@ -590,9 +590,6 @@ background-image: url("bier-full.gif");
 .linken img {
   width: 15rem;
   height: 10rem;
-  padding-top: 1rem;
-  margin-left: 2rem;
-  margin-right: 5rem;
 }
 .validate {
   background: var(--clr-neutral-500);
@@ -683,6 +680,13 @@ background-image: url("bier-full.gif");
   }
   .linken .image-div {
     display: flex;
+  }
+  .linken img {
+    width: 15rem;
+    height: 10rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
   }
   .list-catagory li {
     font-size: var(--fs-400);
