@@ -489,9 +489,6 @@ section,
 /* //////////////////////
   Homepage
   /////////////////////// */
-.hero{
-background-image: url("bier-full.gif");
-}
 .hero > div {
   display: grid;
   grid-auto-flow: row;
@@ -508,7 +505,10 @@ background-image: url("bier-full.gif");
   margin-top: -3rem;
 }
 .hero .image-div-1 .aside-text {
-  background-color: var(--clr-primary-200);
+  /* background-color: var(--clr-primary-200); */
+  background-image: url("/assets/bier-full.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
   text-align: center;
   padding: 10px 10px;
 }
@@ -645,11 +645,14 @@ background-image: url("bier-full.gif");
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10rem;
+    background-image: url("/assets/bier-full.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 5rem;
     padding: 20px 20px;
   }
   .hero .image-div-1 .aside-text {
-    background-color: var(--clr-primary-200);
+    /* background-color: var(--clr-primary-200); */
     text-align: center;
     padding: 5rem 20px;
   }
