@@ -10,6 +10,9 @@ description: Zoek jij nog een origineel cadeau, of wil je eindelijk eens zelf
   scherpste prijs en de snelste levertijd**.**
 author: Ralf de thuisbrouwer
 date: 2022-06-02T12:33:10.405Z
+tags:
+  - bierbrouwpakket
+  - featured
 image: /assets/blog/bier2.png
 imageAlt: bier
 ---
