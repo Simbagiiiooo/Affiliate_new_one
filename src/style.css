@@ -506,9 +506,10 @@ section,
 }
 .hero .image-div-1 .aside-text {
   /* background-color: var(--clr-primary-200); */
-  background-image: url("/assets/bier-full.gif");
+  background-image: url("/assets/bier-full.png");
     background-repeat: no-repeat;
     background-size: cover;
+    ba
   text-align: center;
   padding: 10px 10px;
 }
@@ -645,7 +646,6 @@ section,
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10rem;
-    background-image: url("/assets/bier-full.gif");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 5rem;
@@ -657,7 +657,7 @@ section,
     padding: 5rem 20px;
   }
   .hero .image-div-1 .aside-text p a {
-    color: var(--clr-neutral-400);
+    color: var(--clr-neutral-200);
     text-decoration: none;
   }
   .hero .image-div-1 .aside-text p a:hover {
