@@ -35,9 +35,7 @@ Voor iedereen die het leuk lijkt om zelf thuis bier te brouwen, is dit bierbrouw
 • Vergiet\
 • Kookthermometer\
 • Roerspaan\
-• 12 Beugelflessen\
-\
-**Let op: Het afgebeelde glas is ter illustratie van het eindresultaat en wordt niet meegeleverd in dit pakket.**
+• 12 Beugelflessen
 
 \
 We leren je echt bier te brouwen met één van onze starterspakketten Basis, Plus, Compleet, Luxe en Premium. Deze starterspakketten komen in 6 verschillende bierstijlen. Je kunt kiezen uit **Wit, Weizen, Blond, Dubbel, Tripel en IPA**. Ieder starterspakket bevat minimaal een vergistingsemmer met tapkraan, een waterslot en de afgemeten hoeveelheid mout, hop en gist. Daarnaast zijn er diverse uitbreidingen beschikbaar met handige tools die je kan gebruiken bij het brouwen.\
