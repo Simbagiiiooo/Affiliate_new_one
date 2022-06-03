@@ -709,7 +709,6 @@ section,
     margin-bottom: 2rem;
   }
   .header-four {
-    background-image: url("/assets/bier-full.gif");
     display: grid;
     grid-template-columns: 1fr 0.1fr;
     padding: 2rem;
