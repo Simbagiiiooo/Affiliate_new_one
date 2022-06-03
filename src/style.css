@@ -695,14 +695,12 @@ section,
     font-size: var(--fs-400);
   }
   .header-two {
-    background-image: url("/assets/bier-full.gif");
     display: grid;
     grid-template-columns: 1fr 0.1fr;
     padding: 2rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
   .header-three {
-    background-image: url("/assets/bier-full.gif");
     display: grid;
     grid-template-columns: 1fr 0.1fr;
     padding: 2rem;
@@ -712,7 +710,7 @@ section,
     display: grid;
     grid-template-columns: 1fr 0.1fr;
     padding: 2rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
   .header-five {
     background-image: url("/assets/books.jpg");
