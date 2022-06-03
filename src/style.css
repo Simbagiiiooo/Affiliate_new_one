@@ -509,7 +509,6 @@ section,
   background-image: url("/assets/bier-full.png");
     background-repeat: no-repeat;
     background-size: cover;
-    ba
   text-align: center;
   padding: 10px 10px;
 }
@@ -589,8 +588,9 @@ section,
   border: 5px solid var(--clr-primary-400);
 }
 .linken img {
-  width: 15rem;
+  width: 10rem;
   height: 10rem;
+  margin-left: 2.5rem;
 }
 .validate {
   background: var(--clr-neutral-500);
@@ -685,10 +685,10 @@ section,
     display: flex;
   }
   .linken img {
-    width: 15rem;
+    width: 10rem;
     height: 10rem;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 5rem;
     margin-right: 5rem;
   }
   .list-catagory li {
